@@ -21,20 +21,20 @@ img
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 250% 'Yanone Kaffeesatz', arial, sans-serif;
-  color: black;
-  margin: 0 0 15px 0;
+  color: dimgray;
+  margin: 10 0 15px 0;
   padding: 5px 0 5px 0;}
 
 h2
 { font: normal 170% 'Yanone Kaffeesatz', arial, sans-serif;
-  color: black;  
+  color: dimgray;  
   margin: 0;
   padding: 0 0 8px 0;}
 
 h3
 { font-size: 130%;
   margin: 0 0 9px 0;
-  color: black;}
+  color: dimgray;}
 
 h4, h5, h6
 { margin: 0;
@@ -96,32 +96,26 @@ ol li
 { width: 1150px;
   margin: 20px auto;}
 
-#header
-{ width: 2000px;
-  height: 110px;}
-
-
 #menubar
-{ height: 80px;
-  width: 1110px;
-  margin: 0px auto -20px auto;
-  float: right;
+{ height: 100px;
+  width: 1100px;
+  margin: 0px auto -15px auto;
+  float: left;
   padding: 0px 0 0 0;}
 
-  
 
 ul#menu
-{ float: right;}
+{ float: left;}
 
 ul#menu li
 { float: left;
   padding: 0 0 0px 0px;
   list-style: none;
-  margin: 3px 0 0 0;
+  margin: 38px 0 0 0;
   background: transparent;}
 
 ul#menu li a
-{ font: normal 110% 'Yanone Kaffeesatz', sans-serif;
+{ font: normal 130% 'Yanone Kaffeesatz', sans-serif;
   text-decoration: none;
   color: dimgray;
   display: block; 
@@ -136,7 +130,7 @@ ul#menu li.current a
 
 ul#menu li.current a
 { background: #fff;
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
   border-bottom: 0;
   color: purple;}
 
@@ -243,137 +237,37 @@ text-align: "middle";
 padding-right: "80px";
 }
 
-
-#container{
-    position: absolute;
-    width: 340px;
-    height: 280px;
-    top: 60%;
-    left: 50%;
-    margin-top: -220px;
-    margin-left: -170px;
-    background: #fff;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
-
-    border: 1px solid #c7d0d2;
-    border-radius: 2px;
-    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
-}
-
-
-    form {
-        margin: 0 auto;
-        margin-top: 20px;
-
-    }
-    label {
-        color: #555;
-        display: inline-block;
-        margin-left: 18px;
-        padding-top: 10px;
-        font-size: 14px;
-    }
-    
-    p a {
-        font-size: 11px;
-        color: #aaa;
-        float: right;
-        margin-top: -13px;
-        margin-right: 20px;
-        
-    }
-    p a:hover {
-        color: #555;
-    }
-    input {
-        font-family: "Helvetica Neue", Helvetica, sans-serif;
-        font-size: 12px;
-        outline: none;
-    }
-    input[type=text],
-    input[type=password] {
-        color: #777;
-        padding-left: 10px;
-        margin: 10px;
-        margin-top: 12px;
-        margin-left: 18px;
-        width: 290px;
-        height: 35px;
-        border: 1px solid #c7d0d2;
-        box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
-
-
-    }
-
-    #lower {
-        background: #ecf2f5;
-        width: 100%;
-        height: 69px;
-        margin-top: 20px;
-    }
-
-
-    input[type=checkbox] {
-        margin-left: 20px;
-        margin-top: 30px;
-        
-    }
-    .check {
-        margin-left: 3px;
-    }
-    
-
-    input[type=password] {
-        color: #777;
-        padding-left: 10px;
-        margin: 10px;
-        margin-top: 12px;
-        margin-left: 18px;
-        width: 290px;
-        height: 35px;
-        border: 1px solid #c7d0d2;
-        border-radius: 2px;
-        box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
-    }
-    input[type=submit] {
-        float: right;
-        margin-right: 20px;
-        margin-top: 20px;
-        width: 80px;
-        height: 30px;
-        font-size: 14px;
-        font-weight: bold;
-        color: #fff;
-        background-color: #acd6ef; /*IE fallback*/
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#acd6ef), to(#6ec2e8));
-        background-image: -moz-linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
-        background-image: linear-gradient(top left 90deg, #acd6ef 0%, #6ec2e8 100%);
-        border-radius: 30px;
-        border: 1px solid #66add6;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
-        cursor: pointer;
-    }
-
-
-    #signup{
-        position:absolute;
-        width: 340px;
-        height: 400px;
-        top: 60%;
-        left: 50%;
-        margin-top: -220px;
-        margin-left: -170px;
-        background: #fff;
-        border-radius: 3px;
-        border: 1px solid #ccc;
-        box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
-    
-        border: 1px solid #c7d0d2;
-        border-radius: 2px;
-        box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
        
-    }
+        
+        #header {
+            position:relative;
+            height: 130px;
+            margin: 5px 5px 0 5px;
+            
+        }
+        
+    
+        .headerBg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        
+        .logo {
+            position:relative;
+            height: 140px;
+            float: center;
+            width: 1200px;
+            padding: 25px 0 5px 25px;
+            margin: 0;
+            z-index: -1
 
-   
+
+        }
+        
+        
+
+       
+    
+      
