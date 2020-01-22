@@ -1,119 +1,91 @@
-
 html
 { height: 100%;}
-
 *
 { margin: 0;
   padding: 0;}
-
 body
 { font: normal .95em 'trebuchet ms', arial, sans-serif;
   background: #F7F7F7 url(pattern.png) fixed;
   color: #000000;}
-
 p
 { padding: 0 0 20px 0;
   line-height: 1.5em;
   font-size: 107%;}
-
 img
 { border: 0;}
-
 h1, h2, h3, h4, h5, h6 
 { font: normal 250% 'Yanone Kaffeesatz', arial, sans-serif;
   color: dimgray;
   margin: 10 0 15px 0;
   padding: 5px 0 5px 0;}
-
 h2
 { font: normal 170% 'Yanone Kaffeesatz', arial, sans-serif;
   color: dimgray;  
   margin: 0;
   padding: 0 0 8px 0;}
-
 h3
 { font-size: 130%;
   margin: 0 0 9px 0;
   color: dimgray;}
-
 h4, h5, h6
 { margin: 0;
   padding: 0 0 5px 0;
   font: normal 100% arial, sans-serif;
   color: darkmagenta;
   line-height: 1em;}
-
 h5, h6
 { font: italic 95% arial, sans-serif;
   color: lightslategray;
   padding-bottom: 15px;}
-
 h6
 { color: black;}
-
 a, a:hover
 { outline: none;
   text-decoration: none;
   color: mediumblue;}
-
 a:hover
 { text-decoration: underline;}
-
 .left
 { float: left;
   width: auto;
   margin-right: 10px;}
-
 .right
 { float: right; 
   width: auto;
   margin-left: 10px;}
-
 .center
 { display: block;
   text-align: center;
   margin: 20px auto;}
-
 ul
 { margin: 2px 0 22px 17px;}
-
 ul li
 { list-style-type: circle;
   margin: 0 0 0 0; 
   padding: 0 0 4px 5px;}
-
 ol
 { margin: 8px 0 22px 20px;}
-
 ol li
 { margin: 0 0 11px 0;}
-
-#main, #header, #logo, #menubar, #site_content, #footer
-{ margin-left: auto; 
-  margin-right: auto;}
-
 #main
 { width: 1150px;
   margin: 20px auto;}
-
 #menubar
 { height: 100px;
   width: 1100px;
   margin: 0px auto -15px auto;
   float: left;
-  padding: 0px 0 0 0;}
-
-
+  padding: 0px 0 0 0;
+}
 ul#menu
 { float: left;}
-
 ul#menu li
 { float: left;
   padding: 0 0 0px 0px;
   list-style: none;
   margin: 38px 0 0 0;
-  background: transparent;}
-
+  background: transparent;
+}
 ul#menu li a
 { font: normal 130% 'Yanone Kaffeesatz', sans-serif;
   text-decoration: none;
@@ -123,20 +95,16 @@ ul#menu li a
   height: 20px;
   padding: 7px 23px 15px 23px;
   text-align: center;} 
-
 ul#menu li.current a
 { height: 20px;
   padding: 6px 22px 15px 22px;}
-
 ul#menu li.current a
 { background: #fff;
   border: 0px solid #ddd;
   border-bottom: 0;
   color: purple;}
-
 ul#menu li a:hover
 { color: purple;}
-
 #site_content
 { width: 1200px;
   overflow: hidden;
@@ -144,12 +112,10 @@ ul#menu li a:hover
   padding: 0;
   background: #fff;
   border: 1px solid #E7E7E7;} 
-
 #sidebar_container
 { float: right;
   width: 250px;
   margin: 25px 0;}
-
 .sidebar
 { float: right;
   width: 200px;
@@ -157,76 +123,60 @@ ul#menu li a:hover
   background: #FBFBFB;
   border: 1px solid #eee;
   padding: 0 15px 15px 15px;}
-
 .sidebar h3, .content h1
 { padding: 10px 15px;
   margin: 0 1px;}
-
 .sidebar h1
 { padding: 5px 0 0 0;}
-
 .paperclip
 { float: left;
   position: relative; 
   z-index: 0;
   vertical-align: middle; 
   margin: -27px 0 -60px -30px;}
-
 #content
 { text-align: left;
   width: 1110px;
   padding: 25px 0 5px 25px;
   margin: 0;}
-
 #content ul
 { margin: 2px 0 22px 0px;}
-
 #content ul li
 { list-style-type: none;
   background: url(bullet.png) no-repeat;
   margin: 0 0 4px 0; 
   padding: 8px 0 0px 32px;
   line-height: 1.5em;}
-
-
  #footer
   {
-    position: absolute;
-    clear: both;
-    width: 100%;
-    font: normal 100% 'yanone kaffeesatz',  arial, sans-serif;
-    height: 60px;
-    padding: 20px 0 5px 0;
-    text-align: center; 
-    color: black;
-    background: transparent;
-    margin:auto;
+  position: absolute;
+  clear: both;
+  width: 100%;
+  font: normal 100% 'yanone kaffeesatz',  arial, sans-serif;
+  height: 60px;
+  padding: 20px 0 5px 0;
+  text-align: center; 
+  color: black;
+  background: transparent;
+  margin:auto;
 }
-  
   #footer p
   { padding: 0 0 10px 0;}
-  
   #footer a, #footer a:hover
   { color: black;
     text-decoration: none;}
-  
   #footer a:hover
   { color: purple;
     text-decoration: none;}
-
 .gallery img
     { position:absolute;}
-
 table
 { margin: 0px 0 10px 0;}
-
 table tr th, table tr td
 { padding: 4px 4px;
   text-align: left;}
-
 table tr td
 { border-top: 1px solid #FFF;}
-
 .contact{
 text-align: center;
 background-color: white;
@@ -236,35 +186,18 @@ height: 36px;
 text-align: "middle";
 padding-right: "80px";
 }
-
-       
-        
-        #header {
-            position:relative;
-            height: 130px;
-            margin: 5px 5px 0 5px;
-            
-        }
-        
-    
-        .headerBg {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-        }
-        
-        .logo {
-            position:relative;
-            height: 140px;
-            float: center;
-            width: 1200px;
-            padding: 25px 0 5px 25px;
-            margin: 0;
-            z-index: -1
-
-
-        }
+#header {
+position:relative;
+height: 130px;
+margin: 5px 5px 0 5px;
+}
+.logo {
+position: absolute;
+height: 130px;
+width: 1200px;
+padding: 25px 0 5px 25px;
+z-index: -1
+}
         
         
 
